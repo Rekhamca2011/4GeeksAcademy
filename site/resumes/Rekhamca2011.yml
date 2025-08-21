@@ -1,0 +1,129 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Rekha
+    last_name: Mohanasundaram
+    
+    # Define yourself in 4-5 words
+    motto: I like saving the world
+    
+    # Focus
+    focus: Become a Software Developer
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      Worked as Associate QA Engineer in Information Technology. I'm a self-motivated individual with analytical and leading skills to accomplish high quality projects within budget and schedule. Have good knowledge in SDLC, STLC and Agile-scrum methodologies. Excellent communication and interpersonal capabilities. Highly motivated and hardworking individual. Ability to learn quickly and to correctly apply latest tools and technology.
+
+      Second paragraph if required.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://randomuser.me/api/portraits/women/24.jpg
+
+    # Contact Information
+    email: rekhamca2011@gmail.com #optional
+    phone: 234 2342 342 #optional
+    website: asd.com #optional
+    linkedin: www.linkedin.com/in/rekha-mohanasundaram-72b7aa221 #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: Rekhamca2011
+    
+    twitter: 'webjeda' #optional
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: Tamil
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    # Interests or hobbies
+    interests:
+      - item: Reading
+
+      - item: Sports
+
+      - item: Cooking
+
+# Your previous education
+education:
+    - degree: Masters in Computer Application
+      university: Anna University, Chennai, India
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2008 - 2011
+      details: |
+        This is 3 year program focused on computational theory, programming, algorithm design, and network/database management in depth.
+
+          - Computational theory
+          - Network and database management. 
+
+    - degree: BSc in Computer Science
+      university: Thiruvalluvar University, India
+      # optional
+      university_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      time: 2005 - 2008
+      details: |
+        In this 3 year program got strong foundation in computer science principles and practical skills for careers in the technology industry. 
+
+          - Computer science concepts
+          - Programming
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Associate QA Engineer
+      time: 2012 - 2014
+      company: Sybrant technologies pvt. ltd, Chennai
+      # optional
+      company_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+      details: |
+        Having 1+ Years of Experience as Associate QA Engineer with hands on testing Web Based, client/server and Mobile Applications.
+
+          - Manual Testing
+          - STLC
+
+
+# Your project portfolio
+projects:
+    intro: >
+      Involved in test planning, test development, test execution, test reporting and defect resolutions.
+
+    assignments:
+      - title: Big Basket
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#hook"
+        tagline: "An online grocery store in India."
+
+      - title: Birthday Party booker
+        # optional
+        project_logo: https://4geeks.co/wp-content/themes/4geeks/img/logos/4geeks-academy.svg
+        link: "#"
+        tagline: "A free event planning service"
+
+skills:
+    toolset:
+      - name: Database
+        level: 60%
+
+      - name: GIT
+        level: 65%
+
+      - name: Java
+        level: 40%
+
+      - name: HTML5 & CSS
+        level: 65%
